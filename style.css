@@ -60,3 +60,46 @@ button {
   margin-top: 7vw;
   font-weight: 700;
 }
+
+@media screen and (min-width: 500px) {
+  html {
+    font-size: 2.5vw;
+  }
+
+  body {
+    max-width: 900px;
+    padding: 2.5vw;
+  }
+
+  fieldset {
+    border-radius: 5vw;
+    padding: 3.5vw;
+  }
+
+  legend {
+    padding: 1.5vw;
+    border-radius: 1.5vw;
+  }
+
+  label {
+    margin: 0.5vw;
+  }
+
+  input {
+    border-radius: 0.5vw;
+    padding: 1vw;
+    margin-bottom: 2.5vw;
+  }
+
+  textarea {
+    border-radius: 0.5vw;
+    padding: 0.5vw;
+    margin-bottom: 2.5vw;
+  }
+
+  button {
+    border-radius: 5vw;
+    padding: 2vw;
+    margin-top: 2.5vw;
+  }
+}
