@@ -1,0 +1,62 @@
+html {
+  font-size: 16px;
+  color: #1c3356;
+}
+
+body {
+  background-color: #f5ede3;
+  font-family: Roboto;
+  padding: 10vw;
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: 900;
+}
+
+fieldset {
+  background-color: #fdfaf4;
+  border: none;
+  border-radius: 10vw;
+  padding: 7vw;
+  display: flex;
+  flex-direction: column;
+}
+
+legend {
+  background-color: #fdfaf4;
+  padding: 3vw;
+  border-radius: 3vw;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+label {
+  margin: 1vw;
+  font-weight: 400;
+}
+
+input {
+  border: none;
+  border-radius: 1vw;
+  padding: 1vw;
+  margin-bottom: 5vw;
+}
+
+textarea {
+  border: none;
+  border-radius: 1vw;
+  padding: 1vw;
+  margin-bottom: 5vw;
+}
+
+button {
+  background-color: #1e87fd;
+  color: white;
+  border: none;
+  border-radius: 10vw;
+  padding: 4vw;
+  margin: auto;
+  margin-top: 7vw;
+  font-weight: 700;
+}
