@@ -1,24 +1,25 @@
 const reports = JSON.parse(localStorage.getItem("reports"));
+const article = document.getElementById("reports")
 
 for (let report of reports) {
 
   const section = document.createElement("section");
 
   const agentName = document.createElement("p");
-  agentName.textContent = report.agentName
+  agentName.textContent = 'Agent Name: ' + report.agentName
 
   const agentCode = document.createElement("p");
-  agentCode.textContent = report.agentCode
+  agentCode.textContent = 'Agent Code: ' + report.agentCode
 
   const target = document.createElement("p");
-  target.textContent = report.target
+  target.textContent = 'Target: ' + report.target
 
   const information = document.createElement("p");
-  information.textContent = report.information
+  information.textContent = 'Information: ' + report.information
 
   const submissionTime = document.createElement("p");
-  submissionTime.textContent = report.submissionTime
+  submissionTime.textContent = "Submission Time: " + report.submissionTime
 
   section.append(agentName, agentCode, target, information, submissionTime);
-  document.body.append(section)
+  article.append(section)
 }

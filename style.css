@@ -14,7 +14,8 @@ h1 {
   font-weight: 900;
 }
 
-fieldset {
+fieldset,
+section {
   background-color: #fdfaf4;
   border: none;
   border-radius: 10vw;
@@ -61,17 +62,28 @@ button {
   font-weight: 700;
 }
 
+article {
+  display: flex;
+  flex-direction: column;
+  gap: 3vw;
+}
+
+section p{
+  margin: 1vw;
+}
+
 @media screen and (min-width: 500px) {
   html {
     font-size: 2.5vw;
   }
 
   body {
-    max-width: 900px;
+    max-width: 900;
     padding: 2.5vw;
   }
 
-  fieldset {
+  fieldset,
+  section {
     border-radius: 5vw;
     padding: 3.5vw;
   }
@@ -101,5 +113,9 @@ button {
     border-radius: 5vw;
     padding: 2vw;
     margin-top: 2.5vw;
+  }
+
+  article {
+    gap: 3vw;
   }
 }
