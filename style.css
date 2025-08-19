@@ -78,7 +78,8 @@ section p {
   justify-content: space-between;
 }
 
-.features > button {
+.features > button,
+a {
   background-color: #1e87fd;
   color: white;
   border: none;
@@ -143,7 +144,8 @@ section p {
     margin-top: 1vw;
   }
 
-  .features > button {
+  .features > button,
+  a {
     border-radius: 1vw;
     padding: 1vw;
   }
