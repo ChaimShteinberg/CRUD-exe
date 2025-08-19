@@ -15,7 +15,7 @@ h1 {
 }
 
 fieldset,
-section {
+article > section {
   background-color: #fdfaf4;
   border: none;
   border-radius: 10vw;
@@ -51,7 +51,7 @@ textarea {
   margin-bottom: 5vw;
 }
 
-button {
+fieldset button {
   background-color: #1e87fd;
   color: white;
   border: none;
@@ -68,8 +68,24 @@ article {
   gap: 3vw;
 }
 
-section p{
+section p {
   margin: 1vw;
+}
+
+.features {
+  display: flex;
+  margin-top: 2vw;
+  justify-content: space-between;
+}
+
+.features > button {
+  background-color: #1e87fd;
+  color: white;
+  border: none;
+  border-radius: 2vw;
+  padding: 2vw;
+  margin: auto;
+  font-weight: 500;
 }
 
 @media screen and (min-width: 500px) {
@@ -83,7 +99,7 @@ section p{
   }
 
   fieldset,
-  section {
+  article > section {
     border-radius: 5vw;
     padding: 3.5vw;
   }
@@ -109,7 +125,7 @@ section p{
     margin-bottom: 2.5vw;
   }
 
-  button {
+  fieldset button {
     border-radius: 5vw;
     padding: 2vw;
     margin-top: 2.5vw;
@@ -117,5 +133,18 @@ section p{
 
   article {
     gap: 3vw;
+  }
+
+  section p {
+    margin: 0.5vw;
+  }
+
+  .features {
+    margin-top: 1vw;
+  }
+
+  .features > button {
+    border-radius: 1vw;
+    padding: 1vw;
   }
 }
